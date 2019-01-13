@@ -1,0 +1,11 @@
+sbt-dist/
+build
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.gradle
+/.project
+/.settings
+/
