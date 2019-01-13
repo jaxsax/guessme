@@ -12,7 +12,7 @@ import services.Counter
   */
 @Singleton
 class CountController @Inject()(cc: ControllerComponents, counter: Counter)
-  extends AbstractController(cc) {
+    extends AbstractController(cc) {
 
   /**
     * Create an action that responds with the [[Counter]]'s current

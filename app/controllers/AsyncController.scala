@@ -24,9 +24,10 @@ import scala.concurrent.{ExecutionContext, Future, Promise}
   */
 @Singleton
 class AsyncController @Inject()(
-                                 cc: ControllerComponents,
-                                 actorSystem: ActorSystem)(implicit exec: ExecutionContext)
-  extends AbstractController(cc) {
+    cc: ControllerComponents,
+    actorSystem: ActorSystem
+)(implicit exec: ExecutionContext)
+    extends AbstractController(cc) {
 
   /**
     * Creates an Action that returns a plain text message after a delay

@@ -9,8 +9,8 @@ import play.api.mvc._
   */
 @Singleton
 class HomeController @Inject()(cc: ControllerComponents)(
-  implicit assetsFinder: AssetsFinder)
-  extends AbstractController(cc) {
+    implicit assetsFinder: AssetsFinder)
+    extends AbstractController(cc) {
 
   /**
     * Create an Action to render an HTML page with a welcome message.
