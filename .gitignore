@@ -1,4 +1,3 @@
-sbt-dist/
 build
 logs
 target
